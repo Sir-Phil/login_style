@@ -1,0 +1,172 @@
+/*  
+.container {
+    margin: 50px auto;
+    width: 640px;
+}
+.login{
+    position: relative;
+    margin: 0 auto;
+    padding: 20px 20px 20px;
+    width: 310px;
+}
+.login .button_icon{
+    text-align: center;
+}
+
+.login.forgetpss{
+    margin: 20px;
+    font-size: 20px;
+    text-align: right;
+
+}
+.login.forgetpss a {
+    text-decoration: none;
+}
+.login.forgetpss a:hover{
+    text-decoration: underline;
+
+}
+*/
+
+body {
+    background-image: url("man_in_gas_mask.jpg");
+    height: 100%;
+    z-index: 30;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(14, 12, 10);
+}
+
+/* border form the for*/
+.major{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column: 10px;
+    grid-row: 10px;
+    padding: 5px;
+    background-color: rgba(143, 149, 240, 0.5);
+    min-height: 100vh;
+    min-width: 100vw;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+form {
+    background-color: azure;
+    border: none;
+
+    width: 340px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+input[type=text],
+input[type=password],
+input[type=number] {
+    width: 100%;
+    padding: 10px 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/*style for buttoms*/
+button{
+    background-color: forestgreen;
+    width: 100%;
+    color: white;
+    margin: 8px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
+/*setting hover effect on buttom*/
+button :hover{
+    opacity: 0.8;
+}
+
+/* arranging the first image*/
+.container_key{
+    background-color: forestgreen;
+    color: white;
+    
+}
+.container_key h1, P {
+    text-align: left;
+    margin: 0px 0;
+    
+    margin-left: 10px;
+}
+
+span.lock_key i{
+    position: relative;
+
+}
+
+.container_key span.lock_key .icon {
+    bottom: 50;
+    margin-left: 290px;
+    font-size: 60px;
+}
+/*padding container*/
+.container{
+    padding: 20px;
+}
+/* styling forget password*/
+span.forgetpss {
+    float: right;
+    padding: 20px;
+    color: black;
+}
+
+#buttonred {
+    background-color: rgb(204, 19, 19);
+    width: 100%;
+    color: white;
+    margin: 8px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}  
+
+.container_pen{
+    background-color: rgb(230, 9, 9);
+    color: white;
+}
+
+.container_pen H1 {
+    margin-left: 10px;
+    text-align: left;
+    margin: 1px 0;
+    margin-left: 10px;
+}
+
+.container_pen p{
+    margin-left: 10px;
+}
+
+span.pen i{
+    position: relative;
+}
+
+.container_pen span.pen .icon{
+    bottom: 50px;
+    margin-left: 290px;
+    font-size: 50px;
+}
+
+.containerget {
+    padding: 20px;
+}
+
+/*styling span and buttom for small screen*/
+/*
+@media screen and (max-width:300px) {
+    span .forgetpss{
+        display: block;
+        float: none;
+    }
+}
+*/
